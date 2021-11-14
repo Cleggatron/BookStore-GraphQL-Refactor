@@ -28,12 +28,16 @@ const resolvers = {
             const token = signToken(user);
             return {token, user};
         },
+        
         addUser: async(parent, {email, username, password}) => {
             if(!email || !username || !password){
                 throw new AuthenticationError("Insufficient details provided to create a user!")
             }
             const newUser = await User.create({username, email, password});
             const token = signToken(newUser);
+            console.log("User: " + JSON.stringify(newUser, 0 ,2))
+            console.log("Token: " + JSON.stringify(token))
+
             return {token, newUser}
         },
         saveBook: async(parent, {input}, context) => {
