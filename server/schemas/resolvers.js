@@ -35,10 +35,8 @@ const resolvers = {
             }
             const newUser = await User.create({username, email, password});
             const token = signToken(newUser);
-            console.log("User: " + JSON.stringify(newUser, 0 ,2))
-            console.log("Token: " + JSON.stringify(token))
-
-            return {token, newUser}
+            
+            return {token, user: newUser}
         },
         saveBook: async(parent, {input}, context) => {
             if(context.user){
