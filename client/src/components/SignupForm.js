@@ -36,9 +36,7 @@ const SignupForm = () => {
         variables: {...userFormData}
       });
 
-      debugger;
-
-      if (!data) {
+            if (!data) {
         throw new Error('something went wrong!');
       }
 
