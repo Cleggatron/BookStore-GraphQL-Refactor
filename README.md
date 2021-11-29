@@ -2,7 +2,7 @@
 
 [Project Repo](https://github.com/Cleggatron/BookStore-GraphQL-Refactor )
 
-[Deployed Project](https://immense-ocean-95961.herokuapp.com/ )
+[Deployed Project](https://lit-island-86967.herokuapp.com/)
 
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
