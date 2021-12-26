@@ -25,9 +25,9 @@
 
   ## Usage
 
-  ![File In Action](./assets\21-mern-homework-demo-01.gif)
-  ![File In Action](./assets\21-mern-homework-demo-02.gif)
-  ![File In Action](./assets\21-mern-homework-demo-03.gif)
+  ![File In Action](./assets/21-mern-homework-demo-01.gif)
+  ![File In Action](./assets/21-mern-homework-demo-02.gif)
+  ![File In Action](./assets/21-mern-homework-demo-03.gif)
 
 
   Once up and running you will need to first create an account using the login/signup window. From here you can use the search bar to search for a book by title. Each card that gets returned has a save button appended to the bottom that you can use to save the book to your profile. On the See Your Books page you can see saved preferences and delete as appropriate
